@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuoi fare un gioco con me? 💕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hearts-bg"></div>
+
+    <div class="container">
+        <h1>Chi è la persona più simpatica che conosci? 💕</h1>
+
+<div class="gif-container">
+            <img id="cat-gif" src="https://media.tenor.com/z4wyl-wGu8gAAAAi/dog-love-cool-doge.gif" alt="cute character">
+        </div>
+   
+ <div class="buttons">
+            <button id="yes-btn" onclick="handleYesClick()">Il tuo ragazzo</button>
+            <button id="no-btn" onclick="handleNoClick()">Il tuo ragazzo ma colore diverso</button>
+        </div>
+        <div id="tease-toast"></div>
+    </div>
+
+    <audio id="bg-music" loop autoplay muted>
+           <source src="music\1.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-toggle" onclick="toggleMusic()" title="Toggle music">🔊</button>
+
+    <script src="script2.js"></script>
+</body>
+</html>
